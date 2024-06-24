@@ -83,11 +83,11 @@ def validate_and_load(config, cur, file_path, file_name):
 
         logger.info(f"file_path: {file_path}")
         #Upload the file to an internal stage, overwrite the file if it already exists:
-        cur.execute("PUT file://" + str(file_path) + "/" + str(file_name) + " @aflac.public.azure_ips auto_compress = false overwrite=true ")
+        cur.execute("PUT file://" + str(file_path) + "/" + str(file_name) + " @{database_name}.{schema_name}.azure_ips auto_compress = false overwrite=true ")
         
         #Cleanup the table before copying into:
         cur.execute(f"delete from {database_name}.{schema_name}.azureiplist_stg")
-        cur.execute(f"copy into {database_name}.{schema_name}.{stage_name} from @azure_ips/"+file_name+ " file_format = (type = json)")
+        cur.execute(f"copy into {database_name}.{schema_name}.{stage_name} from @{database_name}.{schema_name}.azure_ips/"+file_name+ " file_format = (type = json)")
 
         cur.execute(f"describe network policy {network_policy}")
 
@@ -110,7 +110,7 @@ def validate_and_load(config, cur, file_path, file_name):
                             select array_distinct(filter(iplist, iplist -> iplist not like '%::%'))powerbi_ipv4
                               from (
                                       select value:"properties"."addressPrefixes" iplist
-                                        from aflac.public.azureiplist_stg
+                                        from {database_name}.{schema_name}.azureiplist_stg
                                             ,lateral flatten(input=> iplist:"values")
                                         where value:"name" = 'PowerBI'
                                  )
