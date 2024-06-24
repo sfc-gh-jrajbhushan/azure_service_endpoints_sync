@@ -1,17 +1,17 @@
 # config/config.yaml
 database:
-  account: "sfsenorthamerica-demo_jrajbhushan"
-  user_name: "jrajbhushan"
-  password: "<pwd>"
-  database_name: "aflac"
-  schema_name: "public"
-  stage_name: "azureiplist_stg"
+  account: "<snowflake account name>"
+  user_name: "<user name>"
+  password: "<password>"
+  database_name: "<database name>"
+  schema_name: "<schema name>"
+  stage_name: "<internal stage>"
   role_name: "accountadmin"
-  warehouse_name: "demo_l_wh"
-  network_policy: "nw_pol"
+  warehouse_name: "<warehouse name>"
+  network_policy: "<Current network policy to which you want to add the new IP addresses>"
 
 
 download:
   url: "https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519"
-  file_path: "/Users/jrajbhushan/Desktop/secode/demos"
+  file_path: "<folder where you want to download the file to>"
   
