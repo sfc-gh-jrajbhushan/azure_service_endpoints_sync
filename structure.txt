@@ -1,0 +1,13 @@
+project/
+│
+├── config/
+│   └── config.yaml
+├── src/
+│   ├── __init__.py
+│   ├── downloader.py
+│   ├── uploader.py
+│   └── main.py
+├── logs/
+│   └── app.log
+├── requirements.txt
+└── README.md

@@ -1,0 +1,9 @@
+pip
+requests
+snowflake-connector-python
+PyYAML
+bs4
+regex
+datetime
+logger
+pathlib

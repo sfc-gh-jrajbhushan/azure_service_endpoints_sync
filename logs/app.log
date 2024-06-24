@@ -1,0 +1,468 @@
+2024-05-27 18:15:08,519 ERROR:Process failed: name 'BeautifulSoup' is not defined
+2024-05-27 18:16:36,268 ERROR:Process failed: name 'os' is not defined
+2024-05-27 18:18:35,023 ERROR:Process failed: name 'logger' is not defined
+2024-05-27 18:23:15,317 ERROR:Process failed: name 'logger' is not defined
+2024-05-27 18:24:50,548 ERROR:Process failed: name 'logger' is not defined
+2024-05-27 18:26:20,520 ERROR:Process failed: name 'psycopg2' is not defined
+2024-05-27 18:29:31,434 ERROR:Process failed: download_file() missing 1 required positional argument: 'logger'
+2024-05-27 18:38:22,510 ERROR:Process failed: download_file() missing 1 required positional argument: 'logger'
+2024-05-27 18:51:00,820 ERROR:Process failed: download_file() missing 1 required positional argument: 'logger'
+2024-05-27 18:54:41,734 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 18:54:41,736 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 18:54:42,376 INFO:Connection successful
+2024-05-27 18:54:42,553 INFO:Number of results in first chunk: 1
+2024-05-27 18:54:44,821 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 18:54:44,822 INFO:closed
+2024-05-27 18:54:44,822 INFO:No async queries seem to be running, deleting session
+2024-05-27 18:57:23,385 INFO:File to be downloaded is at the Link: 
+2024-05-27 18:57:23,813 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 18:57:23,813 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 18:57:24,289 INFO:Connection successful
+2024-05-27 18:57:24,394 INFO:Number of results in first chunk: 1
+2024-05-27 18:57:28,354 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 18:57:28,355 INFO:closed
+2024-05-27 18:57:28,355 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:06:46,788 INFO:downloader.py: download_file()
+2024-05-27 19:06:57,454 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:06:57,455 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:06:57,914 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:06:57,915 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:06:58,481 INFO:Connection successful
+2024-05-27 19:06:58,676 INFO:Number of results in first chunk: 1
+2024-05-27 19:07:00,469 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 19:07:00,469 INFO:closed
+2024-05-27 19:07:00,469 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:12:08,858 INFO:downloader.py: download_file()
+2024-05-27 19:12:17,327 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:12:17,327 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:12:17,947 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:12:17,947 ERROR:Process failed: name 'logger' is not defined
+2024-05-27 19:14:08,173 INFO:downloader.py: download_file()
+2024-05-27 19:14:16,700 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:14:16,701 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:14:17,104 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:14:17,104 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:14:17,104 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:14:17,104 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:14:17,650 INFO:Connection successful
+2024-05-27 19:14:17,771 INFO:Number of results in first chunk: 1
+2024-05-27 19:14:21,876 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 19:14:21,877 INFO:closed
+2024-05-27 19:14:21,877 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:15:30,676 INFO:downloader.py: download_file()
+2024-05-27 19:15:39,132 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:15:39,132 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:15:39,557 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:15:39,557 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:15:39,557 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:15:39,558 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:15:40,097 INFO:Connection successful
+2024-05-27 19:15:40,310 INFO:Number of results in first chunk: 1
+2024-05-27 19:15:41,542 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 19:15:41,543 INFO:closed
+2024-05-27 19:15:41,543 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:16:20,693 INFO:downloader.py: download_file()
+2024-05-27 19:16:30,128 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:16:30,128 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:16:30,516 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:16:30,517 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:16:30,517 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:16:30,517 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:16:30,915 INFO:Connection successful
+2024-05-27 19:16:31,041 INFO:Number of results in first chunk: 1
+2024-05-27 19:16:31,044 INFO:version: [('8.20.10',)]
+2024-05-27 19:16:35,279 ERROR:Process failed: name 'output_file' is not defined
+2024-05-27 19:16:35,280 INFO:closed
+2024-05-27 19:16:35,280 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:24:23,115 INFO:In main.py:main()
+2024-05-27 19:24:23,116 INFO:downloader.py: download_file()
+2024-05-27 19:24:33,564 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:24:33,564 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:24:33,994 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:24:33,994 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:24:33,994 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:24:33,994 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:24:34,507 INFO:Connection successful
+2024-05-27 19:24:34,622 INFO:Number of results in first chunk: 1
+2024-05-27 19:24:34,624 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos/ServiceTags_Public_20240520.json
+2024-05-27 19:24:39,941 INFO:Number of results in first chunk: 1
+2024-05-27 19:24:40,782 INFO:Number of results in first chunk: 1
+2024-05-27 19:24:40,784 INFO:closed
+2024-05-27 19:24:40,785 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:25:23,849 INFO:######  In main.py:main() #############
+2024-05-27 19:25:23,849 INFO:downloader.py: download_file()
+2024-05-27 19:25:34,592 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:25:34,592 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:25:35,011 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:25:35,011 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:25:35,011 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:25:35,012 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:25:35,373 INFO:Connection successful
+2024-05-27 19:25:35,454 INFO:Number of results in first chunk: 1
+2024-05-27 19:25:35,456 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos/ServiceTags_Public_20240520.json
+2024-05-27 19:25:38,438 INFO:Number of results in first chunk: 1
+2024-05-27 19:25:38,685 INFO:Number of results in first chunk: 1
+2024-05-27 19:25:38,687 INFO:closed
+2024-05-27 19:25:38,687 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:46:02,661 INFO:######  In main.py:main() #############
+2024-05-27 19:46:02,662 INFO:downloader.py: download_file()
+2024-05-27 19:46:13,099 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:46:13,099 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:46:13,519 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:46:13,519 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:46:13,519 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:46:13,519 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:46:13,993 INFO:Connection successful
+2024-05-27 19:46:14,164 INFO:Number of results in first chunk: 1
+2024-05-27 19:46:14,165 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos/ServiceTags_Public_20240520.json
+2024-05-27 19:46:20,024 INFO:Number of results in first chunk: 1
+2024-05-27 19:46:20,538 INFO:Number of results in first chunk: 1
+2024-05-27 19:46:20,540 INFO:closed
+2024-05-27 19:46:20,540 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:55:15,730 INFO:######  In main.py:main() #############
+2024-05-27 19:55:15,731 INFO:downloader.py: download_file()
+2024-05-27 19:55:25,266 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:55:25,266 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:55:26,319 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:55:26,319 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 19:55:26,320 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 19:55:26,320 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 19:55:26,791 INFO:Connection successful
+2024-05-27 19:55:26,791 INFO:uploader.py: load_to_snowflake()
+2024-05-27 19:55:26,885 INFO:Number of results in first chunk: 1
+2024-05-27 19:55:26,887 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos/ServiceTags_Public_20240520.json
+2024-05-27 19:55:29,633 INFO:Number of results in first chunk: 1
+2024-05-27 19:55:30,097 INFO:Number of results in first chunk: 1
+2024-05-27 19:55:30,099 INFO:closed
+2024-05-27 19:55:30,099 INFO:No async queries seem to be running, deleting session
+2024-05-27 19:57:00,936 INFO:###################  Begin main.py:main() #######################
+2024-05-27 19:57:00,936 INFO:downloader.py: download_file()
+2024-05-27 19:57:11,628 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 19:57:11,628 INFO:File to be downloaded is at the Link: 
+2024-05-27 19:57:12,431 ERROR:Process failed: load_to_snowflake() missing 1 required positional argument: 'file_name'
+2024-05-27 19:57:12,431 INFO:##################  End main.py:main() ##########################
+2024-05-27 20:05:53,950 INFO:###################  Begin main.py:main() #######################
+2024-05-27 20:05:53,951 INFO:downloader.py: download_file()
+2024-05-27 20:06:03,465 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 20:06:03,466 INFO:File to be downloaded is at the Link: 
+2024-05-27 20:06:03,903 INFO:uploader.py: load_to_snowflake()
+2024-05-27 20:06:03,904 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 20:06:03,904 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 20:06:03,904 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 20:06:05,075 INFO:Connection successful
+2024-05-27 20:06:05,075 INFO:uploader.py: find_latest_file()
+2024-05-27 20:06:05,076 ERROR:Process failed: name 're' is not defined
+2024-05-27 20:06:05,076 INFO:##################  End main.py:main() ##########################
+2024-05-27 20:06:05,076 INFO:closed
+2024-05-27 20:06:05,076 INFO:No async queries seem to be running, deleting session
+2024-05-27 20:06:42,430 INFO:###################  Begin main.py:main() #######################
+2024-05-27 20:06:42,431 INFO:downloader.py: download_file()
+2024-05-27 20:06:50,855 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 20:06:50,855 INFO:File to be downloaded is at the Link: 
+2024-05-27 20:06:51,286 INFO:uploader.py: load_to_snowflake()
+2024-05-27 20:06:51,286 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 20:06:51,286 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 20:06:51,286 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 20:06:51,619 INFO:Connection successful
+2024-05-27 20:06:51,619 INFO:uploader.py: find_latest_file()
+2024-05-27 20:06:51,621 ERROR:Process failed: name 'folder_path' is not defined
+2024-05-27 20:06:51,621 INFO:##################  End main.py:main() ##########################
+2024-05-27 20:06:51,621 INFO:closed
+2024-05-27 20:06:51,621 INFO:No async queries seem to be running, deleting session
+2024-05-27 20:07:25,111 INFO:###################  Begin main.py:main() #######################
+2024-05-27 20:07:25,112 INFO:downloader.py: download_file()
+2024-05-27 20:07:33,924 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 20:07:33,924 INFO:File to be downloaded is at the Link: 
+2024-05-27 20:07:34,541 INFO:uploader.py: load_to_snowflake()
+2024-05-27 20:07:34,541 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 20:07:34,542 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 20:07:34,542 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 20:07:34,969 INFO:Connection successful
+2024-05-27 20:07:34,969 INFO:uploader.py: find_latest_file()
+2024-05-27 20:07:34,972 INFO:##################  End main.py:main() ##########################
+2024-05-27 20:07:34,972 INFO:closed
+2024-05-27 20:07:34,972 INFO:No async queries seem to be running, deleting session
+2024-05-27 20:07:51,595 INFO:###################  Begin main.py:main() #######################
+2024-05-27 20:07:51,595 INFO:downloader.py: download_file()
+2024-05-27 20:08:02,981 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240520.json
+2024-05-27 20:08:02,982 INFO:File to be downloaded is at the Link: 
+2024-05-27 20:08:03,810 INFO:uploader.py: load_to_snowflake()
+2024-05-27 20:08:03,810 INFO:uploader.py: setup_snowflake_conn()
+2024-05-27 20:08:03,810 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-27 20:08:03,810 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-27 20:08:04,161 INFO:Connection successful
+2024-05-27 20:08:04,161 INFO:uploader.py: find_latest_file()
+2024-05-27 20:08:04,163 INFO:##################  End main.py:main() ##########################
+2024-05-27 20:08:04,163 INFO:closed
+2024-05-27 20:08:04,163 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:02:38,742 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:02:38,742 INFO:downloader.py: download_file()
+2024-05-28 07:02:49,156 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:02:49,156 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:02:49,576 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:02:49,576 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:02:49,576 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:02:49,576 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:02:50,040 INFO:Connection successful
+2024-05-28 07:02:50,040 INFO:uploader.py: find_latest_file()
+2024-05-28 07:02:50,044 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:02:50,044 INFO:closed
+2024-05-28 07:02:50,044 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:10:04,787 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:10:04,787 INFO:downloader.py: download_file()
+2024-05-28 07:10:14,201 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:10:14,201 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:10:15,020 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:10:15,020 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:10:15,020 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:10:15,021 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:10:15,664 INFO:Connection successful
+2024-05-28 07:10:15,665 INFO:uploader.py: find_latest_file()
+2024-05-28 07:10:15,667 INFO:uploader.py: validate_and_load()
+2024-05-28 07:10:15,790 INFO:Number of results in first chunk: 1
+2024-05-28 07:10:15,792 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:10:16,028 ERROR:Process failed: 253006: 253006: Not a file but a directory: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:10:16,028 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:10:16,028 INFO:closed
+2024-05-28 07:10:16,028 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:11:52,310 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:11:52,310 INFO:downloader.py: download_file()
+2024-05-28 07:12:01,722 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:12:01,723 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:12:02,409 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:12:02,409 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:12:02,409 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:12:02,409 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:12:03,466 INFO:Connection successful
+2024-05-28 07:12:03,467 INFO:uploader.py: find_latest_file()
+2024-05-28 07:12:03,469 INFO:uploader.py: validate_and_load()
+2024-05-28 07:12:03,596 INFO:Number of results in first chunk: 1
+2024-05-28 07:12:03,597 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:12:03,842 ERROR:Process failed: 253006: 253006: File doesn't exist: ['/Users/jrajbhushan/Desktop/secode/demosServiceTags_Public_20240527.json']
+2024-05-28 07:12:03,842 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:12:03,842 INFO:closed
+2024-05-28 07:12:03,842 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:13:23,924 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:13:23,924 INFO:downloader.py: download_file()
+2024-05-28 07:13:34,388 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:13:34,388 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:13:34,921 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:13:34,921 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:13:34,921 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:13:34,922 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:13:35,574 INFO:Connection successful
+2024-05-28 07:13:35,574 INFO:uploader.py: find_latest_file()
+2024-05-28 07:13:35,577 INFO:uploader.py: validate_and_load()
+2024-05-28 07:13:35,727 INFO:Number of results in first chunk: 1
+2024-05-28 07:13:35,729 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:13:41,823 INFO:Number of results in first chunk: 1
+2024-05-28 07:13:42,726 INFO:Number of results in first chunk: 1
+2024-05-28 07:13:42,849 ERROR:Process failed: 000008 (0A000): 01b4a101-0105-3274-0005-294b0013515e: Actual statement count 2 did not match the desired statement count 1.
+2024-05-28 07:13:42,849 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:13:42,850 INFO:closed
+2024-05-28 07:13:42,850 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:14:58,631 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:14:58,631 INFO:downloader.py: download_file()
+2024-05-28 07:15:07,008 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:15:07,008 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:15:07,438 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:15:07,438 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:15:07,438 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:15:07,439 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:15:08,009 INFO:Connection successful
+2024-05-28 07:15:08,010 INFO:uploader.py: find_latest_file()
+2024-05-28 07:15:08,013 INFO:uploader.py: validate_and_load()
+2024-05-28 07:15:08,130 INFO:Number of results in first chunk: 1
+2024-05-28 07:15:08,132 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:15:14,088 INFO:Number of results in first chunk: 1
+2024-05-28 07:15:14,230 INFO:Number of results in first chunk: 1
+2024-05-28 07:15:14,573 ERROR:Process failed: 000904 (42000): 01b4a103-0105-3122-0005-294b0012aa2a: SQL compilation error: error line 13 at position 43
+invalid identifier 'NW_POL_IPS'
+2024-05-28 07:15:14,573 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:15:14,573 INFO:closed
+2024-05-28 07:15:14,573 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:16:09,204 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:16:09,204 INFO:downloader.py: download_file()
+2024-05-28 07:16:19,609 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:16:19,610 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:16:20,012 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:16:20,012 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:16:20,012 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:16:20,013 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:16:20,394 INFO:Connection successful
+2024-05-28 07:16:20,394 INFO:uploader.py: find_latest_file()
+2024-05-28 07:16:20,398 INFO:uploader.py: validate_and_load()
+2024-05-28 07:16:20,480 INFO:Number of results in first chunk: 1
+2024-05-28 07:16:20,482 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:16:23,345 INFO:Number of results in first chunk: 1
+2024-05-28 07:16:23,448 INFO:Number of results in first chunk: 1
+2024-05-28 07:16:24,658 INFO:Number of results in first chunk: 1
+2024-05-28 07:16:24,659 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:16:24,659 INFO:closed
+2024-05-28 07:16:24,659 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:20:40,172 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:20:40,172 INFO:downloader.py: download_file()
+2024-05-28 07:20:50,567 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:20:50,567 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:20:51,125 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:20:51,125 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:20:51,126 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:20:51,126 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:20:51,581 INFO:Connection successful
+2024-05-28 07:20:51,582 INFO:uploader.py: find_latest_file()
+2024-05-28 07:20:51,585 INFO:uploader.py: validate_and_load()
+2024-05-28 07:20:51,671 INFO:Number of results in first chunk: 1
+2024-05-28 07:20:51,671 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:20:54,506 INFO:Number of results in first chunk: 1
+2024-05-28 07:20:54,598 INFO:Number of results in first chunk: 1
+2024-05-28 07:20:55,904 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:20:55,905 INFO:closed
+2024-05-28 07:20:55,905 INFO:No async queries seem to be running, deleting session
+2024-05-28 07:37:17,541 INFO:###################  Begin main.py:main() #######################
+2024-05-28 07:37:17,541 INFO:downloader.py: download_file()
+2024-05-28 07:37:26,018 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240527.json
+2024-05-28 07:37:26,018 INFO:File to be downloaded is at the Link: 
+2024-05-28 07:37:26,539 INFO:uploader.py: load_to_snowflake()
+2024-05-28 07:37:26,539 INFO:uploader.py: setup_snowflake_conn()
+2024-05-28 07:37:26,540 INFO:Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: macOS-14.5-arm64-arm-64bit
+2024-05-28 07:37:26,540 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-05-28 07:37:26,969 INFO:Connection successful
+2024-05-28 07:37:26,969 INFO:uploader.py: find_latest_file()
+2024-05-28 07:37:26,972 INFO:uploader.py: validate_and_load()
+2024-05-28 07:37:27,061 INFO:Number of results in first chunk: 1
+2024-05-28 07:37:27,063 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-05-28 07:37:29,938 INFO:Number of results in first chunk: 1
+2024-05-28 07:37:30,020 INFO:Number of results in first chunk: 1
+2024-05-28 07:37:31,534 INFO:##################  End main.py:main() ##########################
+2024-05-28 07:37:31,535 INFO:closed
+2024-05-28 07:37:31,535 INFO:No async queries seem to be running, deleting session
+2024-06-20 13:41:19,212 INFO:###################  Begin main.py:main() #######################
+2024-06-20 13:41:19,212 INFO:downloader.py: download_file()
+2024-06-20 13:41:28,761 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:41:28,762 INFO:File to be downloaded is at the Link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:41:29,680 INFO:uploader.py: load_to_snowflake()
+2024-06-20 13:41:29,680 INFO:uploader.py: setup_snowflake_conn()
+2024-06-20 13:41:29,682 INFO:Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: macOS-14.5-arm64-arm-64bit
+2024-06-20 13:41:29,683 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-20 13:41:30,464 ERROR:Failed to establish a connection:
+Traceback (most recent call last):
+  File "/Users/jrajbhushan/Desktop/secode/azure_endpoints/src/uploader.py", line 33, in setup_snowflake_conn
+    conn = snowflake.connector.connect(**connection_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 451, in __init__
+    self.connect(**kwargs)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 756, in connect
+    self.__open_connection()
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1084, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1364, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1392, in _authenticate
+    auth.authenticate(
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: sfsenorthamerica-demo_jrajbhushan.snowflakecomputing.com:443. Incoming request with IP/Token 35.142.12.42 is not allowed to access Snowflake. Contact your account administrator. For more information about this error, go to https://community.snowflake.com/s/ip-xxxxxxxxxxxx-is-not-allowed-to-access.
+2024-06-20 13:41:30,465 ERROR:Process failed: 250001 (08001): None: Failed to connect to DB: sfsenorthamerica-demo_jrajbhushan.snowflakecomputing.com:443. Incoming request with IP/Token 35.142.12.42 is not allowed to access Snowflake. Contact your account administrator. For more information about this error, go to https://community.snowflake.com/s/ip-xxxxxxxxxxxx-is-not-allowed-to-access.
+2024-06-20 13:41:30,465 INFO:##################  End main.py:main() ##########################
+2024-06-20 13:42:30,471 INFO:###################  Begin main.py:main() #######################
+2024-06-20 13:42:30,472 INFO:downloader.py: download_file()
+2024-06-20 13:42:38,970 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:42:38,970 INFO:File to be downloaded is at the Link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:42:39,757 INFO:uploader.py: load_to_snowflake()
+2024-06-20 13:42:39,757 INFO:uploader.py: setup_snowflake_conn()
+2024-06-20 13:42:39,757 INFO:Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: macOS-14.5-arm64-arm-64bit
+2024-06-20 13:42:39,758 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-20 13:42:40,332 ERROR:Failed to establish a connection:
+Traceback (most recent call last):
+  File "/Users/jrajbhushan/Desktop/secode/azure_endpoints/src/uploader.py", line 33, in setup_snowflake_conn
+    conn = snowflake.connector.connect(**connection_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 55, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 451, in __init__
+    self.connect(**kwargs)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 756, in connect
+    self.__open_connection()
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1084, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1364, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1392, in _authenticate
+    auth.authenticate(
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 401, in authenticate
+    Error.errorhandler_wrapper(
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/opt/anaconda3/envs/aflactest/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.DatabaseError: 250001 (08001): None: Failed to connect to DB: sfsenorthamerica-demo_jrajbhushan.snowflakecomputing.com:443. Incoming request with IP/Token 35.142.12.42 is not allowed to access Snowflake. Contact your account administrator. For more information about this error, go to https://community.snowflake.com/s/ip-xxxxxxxxxxxx-is-not-allowed-to-access.
+2024-06-20 13:42:40,335 ERROR:Process failed: 250001 (08001): None: Failed to connect to DB: sfsenorthamerica-demo_jrajbhushan.snowflakecomputing.com:443. Incoming request with IP/Token 35.142.12.42 is not allowed to access Snowflake. Contact your account administrator. For more information about this error, go to https://community.snowflake.com/s/ip-xxxxxxxxxxxx-is-not-allowed-to-access.
+2024-06-20 13:42:40,335 INFO:##################  End main.py:main() ##########################
+2024-06-20 13:43:12,165 INFO:###################  Begin main.py:main() #######################
+2024-06-20 13:43:12,165 INFO:downloader.py: download_file()
+2024-06-20 13:43:22,356 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:43:22,357 INFO:File to be downloaded is at the Link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 13:43:24,014 INFO:uploader.py: load_to_snowflake()
+2024-06-20 13:43:24,015 INFO:uploader.py: setup_snowflake_conn()
+2024-06-20 13:43:24,015 INFO:Snowflake Connector for Python Version: 3.11.0, Python Version: 3.12.4, Platform: macOS-14.5-arm64-arm-64bit
+2024-06-20 13:43:24,016 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-20 13:43:25,494 INFO:Connection successful
+2024-06-20 13:43:25,494 INFO:uploader.py: find_latest_file()
+2024-06-20 13:43:25,498 INFO:uploader.py: validate_and_load()
+2024-06-20 13:43:25,751 INFO:Number of results in first chunk: 1
+2024-06-20 13:43:25,753 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-06-20 13:43:38,837 INFO:Number of results in first chunk: 1
+2024-06-20 13:43:39,100 INFO:Number of results in first chunk: 1
+2024-06-20 13:43:40,761 INFO:##################  End main.py:main() ##########################
+2024-06-20 13:43:40,762 INFO:closed
+2024-06-20 13:43:40,763 INFO:No async queries seem to be running, deleting session
+2024-06-20 14:57:37,784 INFO:###################  Begin main.py:main() #######################
+2024-06-20 14:57:37,784 INFO:downloader.py: download_file()
+2024-06-20 14:57:46,871 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 14:57:46,873 INFO:File to be downloaded is at the Link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 14:57:48,946 INFO:uploader.py: load_to_snowflake()
+2024-06-20 14:57:48,946 INFO:uploader.py: setup_snowflake_conn()
+2024-06-20 14:57:48,946 INFO:Snowflake Connector for Python Version: 3.11.0, Python Version: 3.11.6, Platform: macOS-14.5-arm64-arm-64bit
+2024-06-20 14:57:48,949 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-20 14:57:50,099 INFO:Connection successful
+2024-06-20 14:57:50,100 INFO:uploader.py: find_latest_file()
+2024-06-20 14:57:50,103 INFO:uploader.py: validate_and_load()
+2024-06-20 14:57:50,350 INFO:Number of results in first chunk: 1
+2024-06-20 14:57:50,353 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-06-20 14:57:59,469 INFO:Number of results in first chunk: 1
+2024-06-20 14:57:59,725 INFO:Number of results in first chunk: 1
+2024-06-20 14:58:01,543 INFO:##################  End main.py:main() ##########################
+2024-06-20 14:58:01,544 INFO:closed
+2024-06-20 14:58:01,545 INFO:No async queries seem to be running, deleting session
+2024-06-20 15:04:36,692 INFO:###################  Begin main.py:main() #######################
+2024-06-20 15:04:36,692 INFO:downloader.py: download_file()
+2024-06-20 15:04:45,750 INFO:Found download link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 15:04:45,751 INFO:File to be downloaded is at the Link: https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240617.json
+2024-06-20 15:04:47,103 INFO:uploader.py: load_to_snowflake()
+2024-06-20 15:04:47,103 INFO:uploader.py: setup_snowflake_conn()
+2024-06-20 15:04:47,104 INFO:Snowflake Connector for Python Version: 3.11.0, Python Version: 3.11.6, Platform: macOS-14.5-arm64-arm-64bit
+2024-06-20 15:04:47,104 INFO:This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-06-20 15:04:48,073 INFO:Connection successful
+2024-06-20 15:04:48,073 INFO:uploader.py: find_latest_file()
+2024-06-20 15:04:48,076 INFO:uploader.py: validate_and_load()
+2024-06-20 15:04:48,286 INFO:Number of results in first chunk: 1
+2024-06-20 15:04:48,288 INFO:file_path: /Users/jrajbhushan/Desktop/secode/demos
+2024-06-20 15:04:54,614 INFO:Number of results in first chunk: 1
+2024-06-20 15:04:54,826 INFO:Number of results in first chunk: 1
+2024-06-20 15:04:56,737 INFO:##################  End main.py:main() ##########################
+2024-06-20 15:04:56,739 INFO:closed
+2024-06-20 15:04:56,739 INFO:No async queries seem to be running, deleting session
