@@ -1,8 +1,8 @@
 # azure_service_endpoints_sync
-# Project Title
+## Project Title:
 Automate syncing your Snowflake Network Policy with the Azure Weekly Service Tag Refresh 
 
-## Description
+## Description:
 Microsoft Azure publishes IP address ranges for their services (PowerBI, Storage, SQL, AzureTrafficManager, etc). The ranges are available as part of a JSON file and are updated weekly. They recommend downloading the file every week and appropriately whitelisting the IP ranges here's an excerpt from the download page: 
 
    "Please download the new json file every week and perform the necessary changes at your site to correctly identify services running in Azure"
@@ -15,24 +15,29 @@ Given that there are frequent changes, customers using azure services (PowerBI, 
    4. Return an "alter network policy" statement with the latest IPs appended to the network policy
       **This doesn't handle IPs that are removed in the most recent file 
 
-# Note: 
-Below is the URL where the file can be downloaded along with the description on why this needs to be done. 
+## Azure IP Ranges and Service Tags: 
+Below is the URL where the file can be downloaded, with the description on why this needs to be done. 
 
 https://www.microsoft.com/en-us/download/details.aspx?id=56519
 
-# Text from the page: 
- IP address ranges for Public Azure as a whole, each Azure region within Public, and ranges for several Azure Services (Service Tags) such as Storage, SQL and AzureTrafficManager in Public. This file currently includes only IPv4 address ranges but a schema extension in the near future will enable us to support IPv6 address ranges as well. Service Tags are each expressed as one set of cloud-wide ranges and broken out by region within that cloud. This file is updated weekly. New ranges appearing in the file will not be used in Azure for at least one week. Please download the new json file every week and perform the necessary changes at your site to correctly identify services running in Azure. These service tags can also be used to simplify the Network Security Group rules for your Azure deployments though some service tags might not be available in all clouds and regions. Customers viewing the Effective Security Rules for their network adapters may note the presence of the “special” Azure platform addresses ( 168.63.129.16, FE80::1234:5678:9ABC/128) which are part of the Azure platform and NOT included in the JSON files. These platform addresses are described in more detail here: https://docs.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16. For more information on Service Tags please visit http://aka.ms/servicetags.
+IP address ranges for Public Azure as a whole, each Azure region within Public, and ranges for several Azure Services (Service Tags) such as Storage, SQL and AzureTrafficManager in Public. This file currently includes only IPv4 address ranges but a schema extension in the near future will enable us to support IPv6 address ranges as well. Service Tags are each expressed as one set of cloud-wide ranges and broken out by region within that cloud. This file is updated weekly. New ranges appearing in the file will not be used in Azure for at least one week. Please download the new json file every week and perform the necessary changes at your site to correctly identify services running in Azure. These service tags can also be used to simplify the Network Security Group rules for your Azure deployments though some service tags might not be available in all clouds and regions. Customers viewing the Effective Security Rules for their network adapters may note the presence of the “special” Azure platform addresses ( 168.63.129.16, FE80::1234:5678:9ABC/128) which are part of the Azure platform and NOT included in the JSON files. These platform addresses are described in more detail here: https://docs.microsoft.com/en-us/azure/virtual-network/what-is-ip-address-168-63-129-16. For more information on Service Tags please visit http://aka.ms/servicetags.
 
 
-## Setup
-
+## Setup:
 1. unzip the folder
 2. create a new conda environment (conda create --name <new env>)
 3. conda activate <new env>
 4. Run the statement: pip3 install --upgrade -r requirements.txt
 5. Edit the config.yaml file (substitute credentials, account, db, schema, etc)
-6. navigate to src folder and run: main.py 
-7. logon to the snowflake account, run the below query, which should return three main columns: IPs in the current NW policy, new IPs from the Azure file, Alter network policy statement
-    select * 
-      from <db>.<schema>.azureiplist_core;
 
+## Run:
+1. navigate to src folder and run: main.py 
+2. logon to the snowflake account, run the below query: 
+         select * 
+           from <db>.<schema>.azureiplist_core;
+3. The query returns three main columns:
+      a. IPs in the current NW policy
+      b. New IPs from the Azure file
+      c. Alter network policy statement (The code does not run the alter statement. This has to be verified prior to running) 
+4. Every execution results in the insertion of a new row into the 'azureiplist_core' tatorical tracking purposes
+   
